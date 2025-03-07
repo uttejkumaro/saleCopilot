@@ -54,7 +54,7 @@ def analyze_conversation_and_predict(conversation_history):
 
 # Streamlit Chatbot UI
 def main():
-    st.title("💼 B2B Chatbot using Gemini")
+    st.title("💼 SYPI")
 
     # Set up session state to manage conversation
     if "conversation_history" not in st.session_state:
