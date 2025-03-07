@@ -109,5 +109,6 @@ def main():
             if len(user_messages) % 2 == 0:
                 st.session_state.analysis, st.session_state.next_response = analyze_conversation_and_predict(st.session_state.conversation_history)
 
-if _name_ == "_main_":
+if __name__ == "__main__":
+
     main()
